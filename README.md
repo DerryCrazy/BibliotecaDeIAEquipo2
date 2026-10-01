@@ -14,7 +14,7 @@ BibliotecaIA/
 ├── main.py       demostración por consola
 └── demo.ipynb    notebook de demostración
 ```
-Ejecutar: desde la carpeta que contiene `BibliotecaIA/` → `python -m BibliotecaIA.main`
+Ejecutar: desde la carpeta que contiene `BibliotecaIA/` → `python main.py`
 
 ## Clases
 | Clase | Rol |
