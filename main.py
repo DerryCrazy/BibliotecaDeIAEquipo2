@@ -1,4 +1,10 @@
-"""Demostracion de la Biblioteca de IA - Equipo 2 (Redes neuronales)."""
+"""Demostración de la Biblioteca de IA - Equipo 2 (Redes neuronales)."""
+import sys
+from pathlib import Path
+
+# Añade la carpeta superior (Downloads) al camino de Python
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 from BibliotecaIA.datos.dataset import Dataset
 from BibliotecaIA.modelos.perceptron_simple import PerceptronSimple
 from BibliotecaIA.modelos.red_neuronal import RedNeuronal
