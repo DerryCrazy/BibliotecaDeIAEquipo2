@@ -5,14 +5,14 @@ from pathlib import Path
 # Añade la carpeta superior (Downloads) al camino de Python
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from BibliotecaIA.datos.dataset import Dataset
-from BibliotecaIA.modelos.perceptron_simple import PerceptronSimple
-from BibliotecaIA.modelos.red_neuronal import RedNeuronal
-from BibliotecaIA.patrones.strategy import (EstrategiaMLP_2Capas, EstrategiaMLP_3CapasTanh,
+from BibliotecaDeIAEquipo2.datos.dataset import Dataset
+from BibliotecaDeIAEquipo2.modelos.perceptron_simple import PerceptronSimple
+from BibliotecaDeIAEquipo2.modelos.red_neuronal import RedNeuronal
+from BibliotecaDeIAEquipo2.patrones.strategy import (EstrategiaMLP_2Capas, EstrategiaMLP_3CapasTanh,
                                             EstrategiaMLP_LogisticaSGD)
-from BibliotecaIA.ensemble.combinador import CombinadorSoftVoting
-from BibliotecaIA.resultados.resultado import Resultado
-from BibliotecaIA.resultados.evaluador import Evaluador
+from BibliotecaDeIAEquipo2.ensemble.combinador import CombinadorSoftVoting
+from BibliotecaDeIAEquipo2.resultados.resultado import Resultado
+from BibliotecaDeIAEquipo2.resultados.evaluador import Evaluador
 
 
 def evaluar(modelo, X, y):
